@@ -9,5 +9,9 @@ public class StudentManagementApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(StudentManagementApplication.class, args);
 	}
-
+	public String getMsgfirst() {
+		
+		return "Welcome to bikkad IT";
+				
+	}
 }
